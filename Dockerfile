@@ -1,4 +1,4 @@
-FROM alvrme/alpine-android-base:latest-jdk8
+FROM alvrme/alpine-android-base:latest-jdk11
 
 RUN apk update 
 RUN apk upgrade --update-cache --available
